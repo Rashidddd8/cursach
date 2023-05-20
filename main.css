@@ -1,0 +1,271 @@
+.main{
+    width: 1350px;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+
+}
+
+.second{
+    width: 1350px;
+    height: 60px;
+    text-align: center;
+    position: relative;
+    display: flex;
+
+}
+
+
+
+.route{
+    width: 550px;
+    height: 60px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.block_box{
+    padding-top: 15px;
+    padding-left: 180px;
+}
+
+
+.box {
+      width: 310px;
+      height: 30px;
+      font-size: 15px;
+      color: black;
+      background-color: #eee;
+      border-radius: 5px;
+      box-shadow: 4px 4px #ccc;
+      }
+
+.wrapper{
+
+    position: relative;
+}
+
+.where{
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border: 1px solid black;
+}
+
+.where_wrapper{
+    position: relative;
+}
+
+.where_block{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-height: 56px;
+    font-size: 16px;
+    cursor: text;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.where_label{
+    position: absolute;
+    left: 15px;
+    z-index: 1;
+    margin-top: 0px;
+    overflow-x: hidden;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    pointer-events: none;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+    transform: translateY(20px);
+}
+
+
+.data{
+    position: relative;
+    flex-grow: 1;
+    width:
+    flex-shrink: 1;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.data2{
+    position: relative;
+}
+
+.calendar{
+    font-size: 20px;
+    color: black;
+}
+
+.calendar_p{
+    font-size: 20px;
+}
+
+
+
+
+.passengers{
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border: 1px solid black;
+    width: 150px;
+}
+
+.passengers_2{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-height: 56px;
+    font-size: 16px;
+    cursor: text;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.passengers_label{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    transform: translateY(10px);
+    position: absolute;
+    left: 12px;
+    z-index: 1;
+    margin-top: 0px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    pointer-events: none;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+
+.pass_block{
+    width: 254px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 40px;
+
+}
+
+.pass{
+    width: 30px;
+    height: 25px;
+    font-size: 15px;
+    width: 50px;
+    color: black;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
+
+}
+
+
+
+input{
+    border: 1px white;
+}
+
+
+.find_button{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration-line: none;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    outline-width: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(249, 37, 63);
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    height: 60px;
+    font-size: 16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    line-height: 20px;
+    transition-duration: 0.28s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+    will-change: transform;
+
+}
+
+.map{
+    text-align: center;
+    padding-top: 45%;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  text-decoration: none;    
+}
+.btn-2 {
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+  border: none;
+  text-decoration: none;
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+  text-decoration: none;
+}
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+
+  text-decoration: none;
+}
